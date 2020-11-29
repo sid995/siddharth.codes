@@ -1,14 +1,17 @@
 import Head from 'next/head'
+import { Layout, WidthComp } from '../components/layout'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Personal portfolio</title>
       </Head>
-      <main>
-        <div className="flex py-4">index page</div>
-      </main>
-    </div>
+      <Layout>
+        <WidthComp main>
+          <div className="flex-1">index page</div>
+        </WidthComp>
+      </Layout>
+    </>
   )
 }
