@@ -14,7 +14,7 @@ const Footer = () => {
             and Node.
           </p>
         </div>
-        <div></div>
+        <div />
       </div>
     </div>
   )
