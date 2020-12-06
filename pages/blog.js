@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Layout, WidthComp } from '../components/layout'
+import { Layout } from '../components/layout'
 
 export default function Home() {
   return (
@@ -8,9 +8,9 @@ export default function Home() {
         <title>Articles</title>
       </Head>
       <Layout>
-        <WidthComp main>
+        <div className="w-full py-5 max-w-screen-xl mx-auto flex-1">
           <div className="flex-1">blog page</div>
-        </WidthComp>
+        </div>
       </Layout>
     </>
   )
