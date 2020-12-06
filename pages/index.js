@@ -9,7 +9,16 @@ export default function Home() {
       </Head>
       <Layout>
         <WidthComp main>
-          <div className="flex-1">index page</div>
+          <div className="flex-1 text-center">
+            <p className="text-3xl">Hi I am Siddharth</p>
+            <p>
+              I'm a Javascript Engineer from India in love
+              with React and Node. I currently work as a
+              software engineer at ACKO. In my free time I
+              try to learn anything interesting. Currently
+              trying and failing to learn Rust.
+            </p>
+          </div>
         </WidthComp>
       </Layout>
     </>
