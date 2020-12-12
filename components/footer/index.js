@@ -38,7 +38,7 @@ const Footer = () => {
                   <span className="mr-2 flex items-center">
                     <Image src={`${item.iconSource}`} alt="Github" width={18} height={18} />
                   </span>
-                  <span className="w-full">{`${item.description}`}</span>
+                  <p className="w-full">{`${item.description}`}</p>
                 </div>
               </a>
             </div>
