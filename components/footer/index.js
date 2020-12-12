@@ -1,6 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
 
+const socialArr = [
+  {
+    description: "View source on Github",
+    iconSource: "/images/svg/github.svg",
+    type: "Twitter",
+    url: "https://www.github.com/sid995"
+  },
+  {
+    description: "Follow me on Twitter",
+    iconSource: "/images/svg/twitter.svg",
+    type: "Twitter",
+    url: "https://twitter.com/sidk995"
+  }
+]
+
 const Footer = () => {
   return (
     <div className="bg-white border-color-50 w-full py-10 md:py-16 mx-auto border-t-2">
@@ -16,13 +31,18 @@ const Footer = () => {
         </div>
         <div className="flex flex-col">
           <p className="font-bold text-gray-800 tracking-wide mb-2">Socials</p>
-          <div className="flex">
-            <span className="mr-4">
-              <a href="https://www.github.com/sid995" target="_blank" className="text-gray-500">
-                <Image src="/images/svg/github.svg" alt="Github" width={16} height={16} />
+          {socialArr.map((item, index) => (
+            <div className="flex" key={index}>
+              <a href={`${item.url}`} target="_blank" className="text-gray-500 hover:underline">
+                <div className={`flex items-center${index === 0 ? " pb-1" : (index === item.length - 1 ? " pt-1" : " py-1")}`}>
+                  <span className="mr-2 flex items-center">
+                    <Image src={`${item.iconSource}`} alt="Github" width={18} height={18} />
+                  </span>
+                  <span className="w-full">{`${item.description}`}</span>
+                </div>
               </a>
-            </span>
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
