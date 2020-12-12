@@ -8,9 +8,9 @@ export default function Home() {
         <title>Personal portfolio</title>
       </Head>
       <Layout>
-        <div className="w-full py-5 max-w-screen-xl mx-auto flex-1">
-          <div className="mt-5 px-4">
-            <p className="text-3xl mb-5 text-center font-semibold">
+        <div className="w-full py-5 max-w-screen-md mx-auto flex-1">
+          <div className="px-4 my-4 sm:my-6 md:my-10">
+            <p className="text-3xl mb-5 text-center font-bold">
               Hey, I'm Siddharth
             </p>
             <p className="text-lg">
