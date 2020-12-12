@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Personal portfolio</title>
+        <title>Siddharh Kundu</title>
       </Head>
       <Layout>
-        <div className="w-full py-5 max-w-screen-md mx-auto flex-1">
+        <div className="w-screen max-w-screen-md mx-auto pt-14 flex flex-col flex-auto items-center justify-center">
           <div className="px-4 my-4 sm:my-6 md:my-10">
             <p className="text-3xl mb-5 text-center font-bold">
               Hey, I'm Siddharth
