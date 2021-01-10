@@ -6,7 +6,7 @@ module.exports = {
     './pages/**/*.{js,jsx}',
   ],
   presets: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     screens: {
       sm: '640px',
@@ -203,6 +203,7 @@ module.exports = {
         'Times',
         'serif',
       ],
+      onlyMono: ['monospace'],
       mono: [
         'ui-monospace',
         'SFMono-Regular',
@@ -366,6 +367,7 @@ module.exports = {
       4: 'repeat(4, minmax(0, 1fr))',
       5: 'repeat(5, minmax(0, 1fr))',
       6: 'repeat(6, minmax(0, 1fr))',
+      '2-min': 'repeat(2, minmax(0, min-content))',
     },
     height: theme => ({
       auto: 'auto',

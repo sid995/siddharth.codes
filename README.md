@@ -1,16 +1,15 @@
-# [mxstbr.com](https://siddharth-codes.vercel.app)
+# [siddharthk.com](https://siddharth-codes.vercel.app)
 
-This is the source for my personal website and blog [siddharth-codes](https://siddharth-codes.vercel.app). It's a fully server-side rendered React app.
+This is the source for my personal website and blog [siddharthk](https://siddharth-codes.vercel.app). It's a fully server-side rendered React app.
 
 ## Tech Stack
 
 - [React](https://github.com/facebook/react)
-- [NextJS](https://nextjs.org/)
-- [Vercel](https://vercel.com/)
-- [styled-components](https://github.com/styled-components)
+- [NextJS](https://github.com/vercel/next.js)
+- [Vercel](https://github.com/vercel/vercel)
+- [TailwindCSS](https://github.com/tailwindlabs/tailwindcss)
 - [Prettier](https://github.com/prettier/prettier)
 - [Feather Icons](https://feathericons.com)
-- [Splitbee](https://splitbee.io)
 
 ## License
 

@@ -18,15 +18,14 @@ const socialArr = [
 
 const Footer = () => {
   return (
-    <div className="bg-white border-color-50 w-full py-10 md:py-16 mx-auto border-t-2">
-      <div className="grid max-w-screen-md grid-cols-1 md:gap-x-20 gap-y-10 grid-rows-2 md:grid-cols-2 md:grid-rows-1 px-4 mx-auto">
+    <div className="bg-white border-color-50 w-full py-8 md:py-16 mx-auto border-t">
+      <div className="grid max-w-screen-md grid-cols-1 md:gap-x-20 gap-y-6 grid-rows-2-min md:grid-cols-2 md:grid-rows-1 mx-auto px-4 sm:px-6 md:px-8">
         <div className="flex flex-col">
           <p className="font-bold text-gray-800 tracking-wide mb-2">
             About this place
           </p>
           <p className="text-gray-500">
-            Welcome to my personal website. I'm Siddharth,
-            Javascript Engineer from India and I love React and NextJS (especially).
+            Welcome to my personal website. Made using NextJs, TailwindCSS and Contentful, this website is a work in progress.
           </p>
         </div>
         <div className="flex flex-col">
