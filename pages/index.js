@@ -23,7 +23,7 @@ export default function Home() {
             <p className="mt-5 text-lg">
               In the day job I am using React, NextJS,
               styled-components, storybook and many other
-              tools to create and maintain services used by
+              tools to create and maintain state of the art programs and softwares used by
               thousands of customers.
             </p>
           </div>
